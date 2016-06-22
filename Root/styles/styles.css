@@ -1,8 +1,10 @@
-body {
-  margin: 5% 13% 8%;
-  background: url(images/logo.png);
+.body {
+    margin: 5% 13% 8%;
+    background: url(images/logo.png);
 }
-
+.center {
+    text-align: center;
+}
 .footer {
-  background-color:#F0F0F0;
+    background-color: #F0F0F0;
 }
