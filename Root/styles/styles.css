@@ -1,9 +1,39 @@
-.body {
-    margin: 5% 13% 8%;
+body {
+    background-color: #0B486B;
 }
 .center {
     text-align: center;
 }
+.header {
+    height: 18%;
+    width: 100%;
+    background: #CFF09E;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+.left {
+    float: left;
+    height: 82%;
+    width: 34%;
+    background: #A8DBA8;
+    padding-left: 2%;
+}
+.right {
+    float: right;
+    height: 82%;
+    width: 62%;
+    background: #79BD9A;
+    padding-left: 2%;
+}
+.bottom {
+    clear: both;
+    width: 100%;
+    background: #3B8686;
+}
 .footer {
-    background-color: #F0F0F0;
+  clear: both;
+  width: 100%;
+  background: #888;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
 }
