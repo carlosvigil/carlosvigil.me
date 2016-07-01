@@ -1,39 +1,35 @@
 body {
     background-color: #0B486B;
+    padding: 2%;
 }
 .center {
     text-align: center;
 }
 .header {
-    height: 18%;
-    width: 100%;
+    padding: inherit;
     background: #CFF09E;
-    border-top-right-radius: 2px;
-    border-top-left-radius: 2px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 .left {
     float: left;
-    height: 82%;
-    width: 34%;
+    padding: inherit;
     background: #A8DBA8;
-    padding-left: 2%;
 }
 .right {
     float: right;
-    height: 82%;
-    width: 62%;
+    padding: inherit;
     background: #79BD9A;
-    padding-left: 2%;
 }
 .bottom {
     clear: both;
-    width: 100%;
+    padding: inherit;
     background: #3B8686;
 }
 .footer {
-  clear: both;
-  width: 100%;
-  background: #888;
-  border-bottom-right-radius: 2px;
-  border-bottom-left-radius: 2px;
+    clear: both;
+    padding: inherit;
+    background: #888;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
