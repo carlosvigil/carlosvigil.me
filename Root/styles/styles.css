@@ -1,6 +1,7 @@
 body {
     background-color: #0B486B;
     padding: 2%;
+    margin-top: 50px;
 }
 .center {
     text-align: center;
@@ -10,6 +11,15 @@ body {
     background: #CFF09E;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
+}
+.navbar-brand {
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
 }
 .left {
     float: left;
