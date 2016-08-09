@@ -2,28 +2,26 @@
 
 ## personal website
 
-My first live website and also my personal blog, possibly portfolio. I'll add
-things like opinion pieces and document my journey coding. I have a YouTube
-channel for the same purpose and will embed videos into blog posts here. I plan
-to add links to my social networks like: LinkedIn and Twitter.
+My first live website. Serves as my personal portfolio and contact page.
 
 ### TODO
 
--   [ ] Tighten up, à la Bootstrap
+-  [ ] Re-optimize, minimize
 
 #### In process
 
--   [ ] Adding individual pages for each post
--   [ ] Adding links for each post
+-  [ ] restart with design first
 
 #### Pondering
 
--   [ ] side or topbar
--   [ ] icons
--   [ ] portfolio
--   [ ] external portfolio
+-  [ ] Node package for removing unused css
+  -  depends on the new css being faster than BS cdns
 
 #### Done
 
 -   [x] Start
 -   [x] Optimize for speed
+-   [x] Tighten up, à la Bootstrap
+-   [x] side or topbar
+-   [x] portfolio
+-   [x] icons
