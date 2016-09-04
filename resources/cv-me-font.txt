@@ -1,0 +1,8 @@
+
+<link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,700" rel="stylesheet">
+
+<style>
+@import 'https://fonts.googleapis.com/css?family=Cabin:400,400i,700';
+</style>
+
+font-family: 'Cabin', sans-serif;
