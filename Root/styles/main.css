@@ -24,3 +24,10 @@
 .p10 {
   padding: 10%;
 }
+.panel.pen {
+  text-align: center;
+}
+a img:hover {
+  box-shadow: 5px 5px 5px black;
+  -webkit-box-shadow: 5px 5px 7px black;
+}
