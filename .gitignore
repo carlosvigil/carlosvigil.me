@@ -1,11 +1,8 @@
 
-# Dropbox settings and caches
+*.sublime-workspace
 
-.dropbox
-.dropbox.attr
-.dropbox.cache
+root/\.DS_Store
 
-# Writing folder
+root/images/\.DS_Store
 
-Writing
-
+\.DS_Store
