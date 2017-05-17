@@ -1,4 +1,4 @@
-# www.carlosvigil.me
+# carlos.network
 
 ## personal website
 
