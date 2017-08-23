@@ -9,26 +9,67 @@
 	vigil, developer,designer,YouTube,Atom,VIM,MacBook,macOS,blog,">
 	<meta name="author" content="Carlos Vigil">
 
+
+
+
+	<style>
+		* {
+			background-color: #333;
+			color: #eee;
+		}
+
+		html {
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		body {
+			height: 100%;
+			font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+				'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		}
+
+		a {
+			color: green;
+		}
+
+		a:visited {
+			color: teal;
+		}
+
+		footer {
+			font-size: 0.8em;
+			padding: 8%, 0%;
+		}
+
+		.measure {
+			max-width: 34em;
+		}
+	</style>
+
 	<script src="https://use.fortawesome.com/6140d2a6.js"></script>
 
-	<title></title>
+	<title>Hey</title>
 </head>
 
 <body>
 
-	<h4 class="">About</h4>
-	<p>
-		Fervently learning; introduced to code by try-ruby.org and continuing
-		 to code on <a href="https://www.freecodecamp.com/carlosvigil"
-		target="_blank">freeCodeCamp</a>. Just finished an A.S. Computer Science - Mobile
-		 Applications degree at a community college and hoping to enter an undergrad
-		 engineering program this Fall. I like calm and serenity.
+	<h2 class="">About</h2>
+	<p class="measure">
+		Fervently learning; introduced to code by try-ruby.org and continuing to
+		 code on <a href="https://www.freecodecamp.com/carlosvigil"
+		 target="_blank">freeCodeCamp</a>. Just finished an A.S. Computer
+		 Science - Mobile Applications degree at a community college
+		 and hoping to enter an undergrad engineering program this Fall.
+		 I like calm and serenity.
 	</p>
 	<p>Thanks for visiting!</p>
 
 	<br>
 
-	<h4 class="">Work</h4>
+	<h2 class="">Work</h2>
 	<a href="https://codepen.io/carlosvigil/pen/KzoyyX/">
 		<img alt="image of a website with the heading 'Tribute Page for Biscuit' and a dog underneath."
 		src="images/dog.png" height="527" width="297"/></a>
@@ -37,7 +78,7 @@
 		<img alt="Image of a website with the heading 'Tao Te Ching' and text following."
 		src="images/book.png" height="528" width="298"/></a>
 
-	<h4 class="">Connect</h4>
+	<h2 class="">Connect</h2>
 
 	<a href="https://www.twitter.com/CarlosVixil/" target="_blank">
 		<i class="fa fa-twitter fa-lg" aria-hidden="true"></i> CarlosVixil</a>
@@ -60,30 +101,31 @@
 	<br><br>
 
 	<footer class="">
-		by the above <br/>using <a href="https://fortawesome.com">Fort Awesome</a>
+		👨🏻‍💻 by the above using <a href="https://fortawesome.com">Fort Awesome</a> icons
 	</footer>
 
-						<!-- END VISIBLE CONTENT -->
+	<!-- END VISIBLE CONTENT -->
 
-	<script> // google analytics
-	/* global ga */
-	  ;(function (i, s, o, g, r, a, m) {
-	    i['GoogleAnalyticsObject'] = r
-	    i[r] = i[r] || function () {
-	      ;(i[r].q = i[r].q || []).push(arguments)
-	    },
-	    i[r].l = 1 * new Date()
-	    a = s.createElement(o),
-	  m = s.getElementsByTagName(o)[0]
-	    a.async = 1
-	    a.src = g
-	    m.parentNode.insertBefore(a, m)
-	  })
-	  ;(window, document, 'script',
-	  'https://www.google-analytics.com/analytics.js', 'ga')
+	<script>
+		// google analytics
+		/* global ga */
+		; (function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r
+			i[r] = i[r] || function () {
+				; (i[r].q = i[r].q || []).push(arguments)
+			},
+				i[r].l = 1 * new Date()
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0]
+			a.async = 1
+			a.src = g
+			m.parentNode.insertBefore(a, m)
+		})
+			; (window, document, 'script',
+				'https://www.google-analytics.com/analytics.js', 'ga')
 
-	  ga('create', 'UA-91766979-1', 'auto')
-	  ga('send', 'pageview')
+		ga('create', 'UA-91766979-1', 'auto')
+		ga('send', 'pageview')
 	</script>
 </body>
 

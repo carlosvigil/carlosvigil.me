@@ -1,0 +1,25 @@
+{
+  "name": "carlos.network",
+  "version": "1.0.5",
+  "description": "my personal website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosvigil/carlos.network.git"
+  },
+  "keywords": [
+    "personal"
+  ],
+  "author": "Carlos Vigil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlosvigil/carlos.network/issues"
+  },
+  "homepage": "https://github.com/carlosvigil/carlos.network#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13"
+  }
+}
