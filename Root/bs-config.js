@@ -16,11 +16,12 @@ module.exports = {
     "ui": {
         "port": 3001
     },
-    "files": ["**\*.js", "**\*.html", "**\*.css"],
+    "files": ["new.html", "pages/*.html", "images/*.png"],
     "watchEvents": [
-        "change"
+        "change",
+        "add"
     ],
-    "watch": true,
+    "watch": false,
     "ignore": [],
     "single": false,
     "watchOptions": {

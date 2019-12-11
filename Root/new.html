@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="The personal website of Carlos Vigil.">
+	<meta name="keywords" content="HTML,CSS,JavaScript,Ruby,Swift,coding,carlos,
+	vigil, developer,designer,YouTube,Atom,VIM,MacBook,macOS,blog,">
+	<meta name="author" content="Carlos Vigil">
+	<meta name="p:domain_verify" content="438315156c4249159efcbd8ccf1b33fc"/>
+  <title>Portfolio for Review, Semester 4</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Crimson+Pro:200,400,400i,500,500i,700&display=swap');
+
+    body {
+      margin: 0;
+    }
+
+    .old-margin {
+      margin: 8px;
+    }
+
+    /* Color */
+    .new-bg {
+      background: #dfdfdf;
+      width: 100%;
+      margin: 0;
+    }
+
+    /* type */
+    body {
+      font-kerning: normal;
+    }
+
+    .name {
+      mix-blend-mode: screen;
+      opacity: 40%;
+      font-weight: 200;
+      font-size: 72px;
+      letter-spacing: -0.01em;
+      float: left;
+      color: #A4E1AC;
+      transform:rotate(-90deg);
+      -webkit-transform:rotate(-90deg);
+      -webkit-text-stroke-width: 0.5px;
+      -webkit-text-stroke-color: #dfdfdf;
+    }
+
+    h2 {
+      margin: 1.1em 0 0.5em 0;
+      font-size: 20px;
+      font-weight: 300;
+    }
+
+    article {
+      max-width: 100%;
+      width: 34em;
+      margin: 0 auto;
+      font-family: 'Crimson Pro', Georgia, 'Times New Roman', Times, serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 127%;
+      font-size-adjust: 1.2em;
+    }
+
+    article p {
+      margin: .5em 0;
+    }
+
+    @media only screen and (max-width: 700px) {
+      article {
+        width: 17em;
+        font-size: 16px;
+        line-height: 133%;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+    }
+
+
+    .story-img {
+      max-width: 90%;
+      margin: 1% 4%;
+    }
+
+  </style>
+
+  <script src="https://unpkg.com/smartphoto@1.1.0/js/smartphoto.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/smartphoto@1.1.0/css/smartphoto.min.css">
+
+</head>
+
+<body>
+  <div class="old-margin">
+    <a href="/index.html">The old site.<a>
+    <span>What follows is a stream of consciousness.</span>
+    <h1>Site Design</h1>
+    <p>
+      First, I&rsquo;ll use <a href="https://www.figma.com/">Figma.com to prototype</a> and copy the code my design produces. Saving me time from experiments with HTML and CSS. <em>Actually</em> I&rsquo;m going to add some CSS to limit line lengths based on the size of the type here. See, they&rsquo;re too long.
+    </p>
+  </div>
+  <article>
+    <h2>Type</h2>
+    <p>
+      These new paragraphs should be more humane. They&rsquo;re set in Crimson Pro, 18px for viewing from at a distance&mdash;16px for mobile, roughly 66 characters per line, with 27% increased line height (leading). Going in I knew I wanted a less offensive light background.
+    </p>
+  </article>
+
+  <div class="new-bg">
+    <span class="name">Carlos Vigil</span>
+
+    <article>
+      <h2>Color</h2>
+      <img class="story-img" src="images/site-process-1figma.png">
+      <p>
+        I chose an 88% gray on the HSL color model. Though I&rsquo;ve centered these elements it looks like I might benefit from a grid and padding (&lsquo;&lsquo;margins&rsquo;&rsquo;).
+      </p>
+      <h2>Gallery</h2>
+      <p>
+        For ease of use and a kind of rest from verticle scrolling on daily basis I could make a horizontal gallery. The height will be 600px, which should fit on most mobile devices.
+      </p>
+      <p>Turns out there&rsquo;s a javascript library I can use</p>
+
+
+      <h2>Considerations</h2>
+        <p>
+          This site was made in a day. Few projects are complete in terms of the vision or tone that was intended. The choice of a serif font is based on recommendations from memory that say serifs allow for the eye to flow from one letter to the next, but I have not researched if it&rsquo;s legimate advice, and, no person would say cursive is easier to read.
+        </p>
+    </article>
+  </div>
+</body>
+
+</html>
