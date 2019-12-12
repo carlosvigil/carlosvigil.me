@@ -1,143 +1,172 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="description" content="The personal website of Carlos Vigil.">
 	<meta name="keywords" content="HTML,CSS,JavaScript,Ruby,Swift,coding,carlos,
 	vigil, developer,designer,YouTube,Atom,VIM,MacBook,macOS,blog,">
 	<meta name="author" content="Carlos Vigil">
 	<meta name="p:domain_verify" content="438315156c4249159efcbd8ccf1b33fc"/>
-  <title>Portfolio for Review, Semester 4</title>
+	<title>Portfolio for Review, Semester 4</title>
 
-  <style>
-    @import url('https://fonts.googleapis.com/css?family=Crimson+Pro:200,400,400i,500,500i,700&display=swap');
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Crimson+Pro:200,400,400i,500,500i,700&display=swap');
 
-    body {
-      margin: 0;
-      background: #dfdfdf;
-    }
+		/* Color */
+		body {
+			margin: 0;
+			background: #dfdfdf;
+		}
 
-    .old {
-      padding: 8px;
-      background: #ffffff;
-    }
+		.old {
+			padding: 8px;
+			background: #ffffff;
+		}
 
-    /* Color */
-    .new {
-      width: 100%;
-      margin: 0;
-    }
+		.new {
+			width: 100%;
+			margin: 0;
+		}
 
-    /* type */
-    body {
-      font-kerning: normal;
-    }
+		/* type */
+		body {
+			font-kerning: normal;
+		}
 
-    .name {
-      mix-blend-mode: screen;
-      opacity: 40%;
-      font-family: 'Crimson Pro', Georgia, 'Times New Roman', Times, serif;
-      font-weight: 200;
-      font-size: 72px;
-      letter-spacing: -0.01em;
-      float: left;
-      color: #A4E1AC;
-      transform:rotate(-90deg);
-      -webkit-transform:rotate(-90deg);
-    }
+		.name {
+			mix-blend-mode: screen;
+			opacity: 40%;
+			font-family: 'Crimson Pro', Georgia, 'Times New Roman', Times, serif;
+			font-weight: 200;
+			font-size: 72px;
+			letter-spacing: -0.01em;
+			float: left;
+			color: #A4E1AC;
+			transform:rotate(-90deg);
+			-webkit-transform:rotate(-90deg);
+		}
 
-    h2 {
-      margin: 1.1em 0 0.5em 0;
-      font-size: 22px;
-      font-weight: 400;
-    }
+		h2 {
+			margin: 1.1em 0 0.5em 0;
+			font-size: 22px;
+			font-weight: 400;
+		}
 
-    article {
-      max-width: 100%;
-      width: 30em;
-      margin: 0 auto;
-      font-family: 'Crimson Pro', Georgia, 'Times New Roman', Times, serif;
-      font-size: 21px;
-      font-weight: 400;
-      line-height: 125%;
-      font-size-adjust: 1.2em;
-    }
+		article {
+			max-width: 100%;
+			width: 30em;
+			margin: 0 auto;
+			font-family: 'Crimson Pro', Georgia, 'Times New Roman', Times, serif;
+			font-size: 21px;
+			font-weight: 400;
+			line-height: 125%;
+			font-size-adjust: 1.2em;
+		}
 
-    article p {
-      margin: .5em 0;
-    }
+		article p {
+			margin: .5em 0;
+		}
 
-    @media only screen and (max-width: 700px) {
-      article {
-        width: 20.5em;
-        font-size: 18px;
-      }
-    }
+		@media only screen and (max-width: 700px) {
+			article {
+				width: 20.5em;
+				font-size: 18px;
+			}
+		}
 
-    @media only screen and (max-width: 320px) {
-      article {
-        width: 18.2em;
-        font-size: 16px;
-        line-height: 132%;
-      }
+		@media only screen and (max-width: 320px) {
+			article {
+				width: 18.2em;
+				font-size: 16px;
+				line-height: 132%;
+			}
 
-      h2 {
-        font-size: 18px;
-      }
-    }
+			h2 {
+				font-size: 18px;
+			}
+		}
 
-    .story-img {
-      max-width: 90%;
-      margin: 1% 4%;
-    }
+		.story-img {
+			max-width: 90%;
+			margin: 1% 4%;
+		}
 
-  </style>
+		.gallery {
+			background: #808080;
+			overflow-x: scroll;
+			white-space: nowrap;
+		}
 
-  <script src="https://unpkg.com/smartphoto@1.1.0/js/smartphoto.min.js"></script>
-  <link rel="stylesheet" href="https://unpkg.com/smartphoto@1.1.0/css/smartphoto.min.css">
+	</style>
+
+	<script src="https://unpkg.com/smartphoto@1.1.0/js/smartphoto.min.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/smartphoto@1.1.0/css/smartphoto.min.css">
 
 </head>
 
 <body>
-  <div class="old">
-    <a href="/index.html">The old site.<a>
-    <span>What follows is a stream of consciousness.</span>
-    <h1>Site Design</h1>
-    <p>
-      First, I&rsquo;ll use <a href="https://www.figma.com/">Figma.com to prototype</a> and copy the code my design produces. Saving me time from experiments with HTML and CSS. <em>Actually</em> I&rsquo;m going to add some CSS to limit line lengths based on the size of the type here. See, they&rsquo;re too long.
-    </p>
-  </div>
-  <article>
-    <h2>Type</h2>
-    <p>
-      These new paragraphs should be more humane. They&rsquo;re set in Crimson Pro, 21px for viewing from at a distance&mdash;16px for mobile, roughly 75 characters per line, with 27% increased line height (leading). Going in I knew I wanted a less offensive light background.
-    </p>
-  </article>
+<div class="old">
+	<a href="/index.html">The old site.<a>
+	<span>What follows is a stream of consciousness.</span>
+	<h1>Site Design</h1>
+	<p>
+		First, I&rsquo;ll use <a href="https://www.figma.com/">Figma.com to prototype</a> and copy the code my design produces. Saving me time from experiments with HTML and CSS. <em>Actually</em> I&rsquo;m going to add some CSS to limit line lengths based on the size of the type here. See, they&rsquo;re too long.
+	</p>
+</div>
+<article>
+	<h2>Type</h2>
+	<p>
+		These new paragraphs should be more humane. They&rsquo;re set in Crimson Pro, 21px for viewing from at a distance&mdash;16px for mobile, roughly 75 characters per line, with 25% increased line height (leading). I know that I want a less offensive background color.
+	</p>
+</article>
 
-  <div class="new">
-    <span class="name">Carlos Vigil</span>
+<div class="new">
+	<span class="name">Carlos Vigil</span>
 
-    <article>
-      <h2>Color</h2>
-      <img class="story-img" src="images/site-process-1figma.png">
-      <p>
-        I chose an 88% gray on the HSL color model. Though I&rsquo;ve centered these elements it looks like I might benefit from a grid and padding (&lsquo;&lsquo;margins&rsquo;&rsquo;). Also, this main page needs a little branding, so I've added my name on the left.
-      </p>
-      <h2>Gallery</h2>
-      <p>
-        For ease of use and a kind of rest from verticle scrolling on daily basis I could make a horizontal gallery. The height will be 600px, which should fit on most mobile devices.
-      </p>
-      <p>Turns out there&rsquo;s a javascript library I can use</p>
+	<article>
+		<h2>Color</h2>
+		<img class="story-img" src="images/site-process-1figma.png">
+		<p>
+			I chose an 88% gray on the HSL color model. Though I&rsquo;ve centered these elements it looks like I might benefit from a grid and padding (&lsquo;&lsquo;margins&rsquo;&rsquo;). Also, this main page needs a little branding, so I've added my name on the left.
+		</p>
+		<h2>Gallery</h2>
+		<p>
+			For ease of use and a kind of rest from verticle scrolling on daily basis I could make a horizontal gallery. The height will be 600px, which should fit on most mobile devices.
+		</p>
+		<p>
+			Turns out there&rsquo;s a <a href="https://appleple.github.io/SmartPhoto/">javascript library</a> I can use.
+		</p>
+	</article>
 
+	<div class="gallery">
+		<a href="images/drawing II/portrait profile.jpg" class="js-smartPhoto" data-caption="bear" data-id="bear" data-group="animal"/>
+		<img src="images/drawing II/portrait profile-thumb.jpg"/></a>
 
-      <h2>Considerations</h2>
-        <p>
-          This site was made in a day. Few projects are complete in terms of the vision or tone that was intended. The choice of a serif font is based on recommendations from memory that say serifs allow for the eye to flow from one letter to the next, but I have not researched if it&rsquo;s legimate advice, and, no person would say cursive is easier to read.
-        </p>
-    </article>
-  </div>
+		<a href="images/drawing II/portrait front.jpg" class="js-smartPhoto" data-caption="camel" data-id="camel" data-group="animal"/>
+		<img src="images/drawing II/portrait front-thumb.jpg"/></a>
+
+		<a href="images/drawing II/figure quarter profile.jpg" class="js-smartPhoto" data-caption="lion" data-id="lion" data-group="animal"/>
+		<img src="images/drawing II/figure quarter profile-thumb.jpg"/></a>
+
+		<a href="images/drawing II/hand-foot.jpg" class="js-smartPhoto" data-caption="lion" data-id="lion" data-group="animal"/>
+		<img src="images/drawing II/hand-foot-thumb.jpg"/></a>
+
+		<a href="images/drawing II/dress.jpg" class="js-smartPhoto" data-caption="lion" data-id="lion" data-group="animal"/>
+		<img src="images/drawing II/dress-thumb.jpg"/></a>
+
+		<a href="images/drawing II/storyboard.jpg" class="js-smartPhoto" data-caption="lion" data-id="lion" data-group="animal"/>
+		<img src="images/drawing II/storyboard-thumb.jpg"/></a>
+		</div>
+
+	<article>
+		<h2>Considerations</h2>
+		<p>
+			This site was made in a day. Few projects are complete in terms of the vision or tone that was intended. The choice of a serif font is based on recommendations from memory that say serifs allow for the eye to flow from one letter to the next, but I have not researched if it&rsquo;s legimate advice, and, no person would say cursive is easier to read.
+		</p>
+	</article>
+</div>
 </body>
 
 </html>
