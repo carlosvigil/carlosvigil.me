@@ -28,15 +28,17 @@ body {
   font-weight: 200;
   font-size: 72px;
   letter-spacing: -0.01em;
-  float: left;
+  position: absolute;
+  top: 500px;
+  left: -64px;
   color: #A4E1AC;
   transform:rotate(-90deg);
   -webkit-transform:rotate(-90deg);
 }
 
 h1.styled {
-  margin: 1.1em 0 0.5em 1em;
-  font-size: 144px;
+  margin: 1.1em 0 0.5em 1.2em;
+  font-size: 64px;
   font-weight: 400;
   color: #24B7A5;
 }
@@ -100,9 +102,6 @@ article p {
   background: #808080;
   overflow-x: auto;
   white-space: nowrap;
-}
-
-.course-section {
 }
 
 .course-title {
