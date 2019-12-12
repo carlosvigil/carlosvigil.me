@@ -68,6 +68,11 @@ article p {
     width: 20.5em;
     font-size: 18px;
   }
+
+  h1.styled {
+    margin: auto;
+    font-size: 36px;
+  }
 }
 
 @media only screen and (max-width: 320px) {
