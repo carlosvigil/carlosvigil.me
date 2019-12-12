@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Pro:200,400,400i,500,500i,700&display=swap');
+
+/* Color */
+body {
+  margin: 0;
+  background: #DCE5E5;
+}
+
+.old {
+  padding: 8px;
+  background: #ffffff;
+}
+
+.new {
+  width: 100%;
+  margin: 0;
+}
+
+/* type */
+body {
+  font-kerning: normal;
+}
+
+.name {
+  mix-blend-mode: overlay;
+  opacity: 80%;
+  font-family: 'Crimson Pro', Georgia, 'Times New Roman', Times, serif;
+  font-weight: 200;
+  font-size: 72px;
+  letter-spacing: -0.01em;
+  float: left;
+  color: #A4E1AC;
+  transform:rotate(-90deg);
+  -webkit-transform:rotate(-90deg);
+}
+
+h2 {
+  margin: 1.1em 0 0.5em 0;
+  font-size: 22px;
+  font-weight: 400;
+  color: #24B7A5;
+}
+
+article {
+  max-width: 100%;
+  width: 30em;
+  margin: 0 auto;
+  font-family: 'Crimson Pro', Georgia, 'Times New Roman', Times, serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 125%;
+  font-size-adjust: 1.2em;
+}
+
+article p {
+  margin: .5em 0;
+}
+
+@media only screen and (max-width: 700px) {
+  article {
+    width: 20.5em;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  article {
+    width: 18.2em;
+    font-size: 16px;
+    line-height: 132%;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}
+
+.story-img {
+  max-width: 90%;
+  margin: 1% 4%;
+}
+
+.gallery {
+  height: 619.51px;
+  margin-top: 1.6em;
+  background: #808080;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.course-section {
+}
+
+.course-title {
+  font-weight: 200;
+}
