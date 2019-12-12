@@ -34,6 +34,13 @@ body {
   -webkit-transform:rotate(-90deg);
 }
 
+h1.styled {
+  margin: 1.1em 0 0.5em 1em;
+  font-size: 144px;
+  font-weight: 400;
+  color: #24B7A5;
+}
+
 h2 {
   margin: 1.1em 0 0.5em 0;
   font-size: 22px;
@@ -81,8 +88,10 @@ article p {
 }
 
 .gallery {
+  font-size: 21px;
   height: 619.51px;
   margin-top: 1.6em;
+  margin-bottom: 4em;
   background: #808080;
   overflow-x: auto;
   white-space: nowrap;
