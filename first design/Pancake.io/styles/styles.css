@@ -1,0 +1,24 @@
+.content {
+  margin-top: 50px;
+}
+.header {
+  padding: inherit;
+  background: #CFF09E;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.navbar-brand {
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+.panel {
+  border-radius: 0px;
+}
+.p10 {
+  padding: 10%;
+}
